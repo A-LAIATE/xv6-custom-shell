@@ -102,10 +102,5 @@ To quit QEMU: press `ctrl-a` then `x`.
 
 ## Notes
 
-- This repo contains only `my_shell.c` to keep the public repository focused on the implementation.
-- If your container image filename differs, replace `xv6_tool.simg` with your actual file name.
-
-```mathematica 
-Replace the placeholder repo URL once you publish it, and you are done.
-::contentReference[oaicite:0]{index=0}
-```
+- This repository intentionally includes only `my_shell.c` to keep the public code focused on the shell implementation.
+- If your container image filename differs, replace `xv6_tool.simg` with your actual filename when running the toolchain.
