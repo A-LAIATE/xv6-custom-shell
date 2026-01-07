@@ -17,10 +17,10 @@ The xv6 source tree is intentionally _not included_ in this repository. To use t
 ---
 
 ## Requirements (sources)
-- Shell source (this repo): https://github.com/<YOUR-USERNAME>/<YOUR-REPO>
-- xv6-riscv: https://github.com/mit-pdos/xv6-riscv
-- Apptainer (recommended): https://apptainer.org/  
-  (Alternative: Singularity: https://sylabs.io/singularity/)
+- Shell source: `https://github.com/A-LAIATE/xv6-custom-shell`
+- xv6-riscv: `https://github.com/mit-pdos/xv6-riscv`
+- Apptainer: `https://apptainer.org/`
+     - Alternative: Singularity: `https://sylabs.io/singularity/`
 
 ---
 
@@ -54,8 +54,8 @@ singularity shell xv6-tools_buildx-latest.sif
 ### 3) Download this shell source and copy it into xv6
 
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPO>.git
-cp <YOUR-REPO>/my_shell.c user/myshell.c
+git clone https://github.com/A-LAIATE/xv6-custom-shell.git
+cp xv6-custom-shell/my_shell.c user/myshell.c
 ```
 
 ---
