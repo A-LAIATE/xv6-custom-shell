@@ -1,4 +1,4 @@
-# xv6 Custom Shell - `my_shell.c`
+# xv6 Custom Shell
 
 This repository contains _only_ `my_shell.c`, an xv6 user-program that implements a custom shell.  
 The xv6 source tree is intentionally _not included_ in this repository. To use this shell, follow the steps below to integrate it into a fresh xv6 checkout and build.
